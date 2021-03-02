@@ -1,0 +1,41 @@
+Creating Database
+
+>use school9
+
+name course total age
+>create table student
+
+>show dbs {list all Database}
+
+>use school {create Database}
+
+>db.createCollection("student")
+
+>show collections {list all collection in db}
+
+>db.student.insert({rol:1000,name:"ann",course:"bca",total:"240"})
+
+>db.student.insertMany([{rol:1001,name:"anu",course:"bca",total:250},{rol:1002,name:"ann",course:"bca",total:240}])
+
+>db.student.find().pretty()
+
+>db.student.find({rol:1001})
+
+>db.student.find({course:{$ne:"mca"}})
+
+>db.student.find({name:/^an/}).pretty()
+(to find name starting with an)
+
+>db.student.find({name:/nu$/}).pretty()
+(to find name ending with nu)
+
+>db.sbk.find({balance:{$gt:5000}})//to find amound >5000
+
+>>db.sbk.find({balance:{$lt:5000}})//to find amound <5000
+
+
+
+create Database bank
+
+acno,username,password,balance,
+

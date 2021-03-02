@@ -1,0 +1,25 @@
+#top
+{
+    border-style: solid;
+    border-color: darkgoldenrod;
+    border-width: 6px;
+    width: 50%;
+    margin-left: 250px;
+    margin-top: 50px;
+    padding-left: 300px;
+    background-color: darkkhaki;
+}
+#bottom
+{
+    border-style: solid;
+    border-color: darkgoldenrod;
+    border-width: 6px;
+    width: 50%;
+    margin-top: 440px;
+    margin-left: 250px;
+    margin-right: 300px;
+    background-color: darkmagenta;
+}
+h1{
+    font-family:'Goldman', cursive; ;
+}

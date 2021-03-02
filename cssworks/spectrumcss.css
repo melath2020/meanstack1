@@ -1,0 +1,28 @@
+h1{
+    font-family:'Lobster', cursive;
+    text-align: center;
+}
+table{
+    margin: auto;
+    border-color: ;
+}
+td{
+    height:200px ;
+    padding:100px;
+    border:5px solid rgb(95, 91, 80);
+    height: 200px;
+
+
+}
+#one{
+    background-color: goldenrod;
+}
+#two{
+    background-color: blue;
+}
+#three{
+    background-color: red;
+}
+#four{
+    background-color: brown;
+}
